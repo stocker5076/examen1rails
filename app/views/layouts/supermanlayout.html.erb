@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Superheroes</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Latest compiled and minified CSS -->
+  </head>
+
+  <body>
+    <%= yield %>
+    <script type="text/javascript">
+      $.backstretch("http://wallpapercave.com/wp/ca1byyf.jpg");
+    </script>
+  </body>
+</html>
