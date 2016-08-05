@@ -5,8 +5,10 @@ class ApplicationController < ActionController::Base
   def set_layout
   	if controller_name == "pages" and action_name == "superman"
   		return 'supermanlayout'
+  	elsif controller_name == "pages" and action_name == "batman"
+  		return 'application'
   	else
-  		return  'application'
+  		return  'landing'
   	end
   end
 end
