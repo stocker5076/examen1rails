@@ -6,9 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Latest compiled and minified CSS -->
   </head>
 
   <body>
     <%= yield %>
+    <script type="text/javascript">
+      $.backstretch("http://www.planwallpaper.com/static/images/d8aa4750-deef-44ac-83a1-f2b5e6ee029a.jpg");
+    </script>
   </body>
 </html>
